@@ -34,3 +34,9 @@ export const GET_GAME_DATA_API = ({ commit }) => {
     commit('SET_GAME_DATA', data);
   });
 };
+export const SET_TRUE_ANSWER_STATE = ({ commit }, trueAnswer) => {
+  commit('SET_IS_ANSWER_TRUE', trueAnswer);
+};
+export const SET_WRONG_ANSWER_STATE = ({ commit }, wrongAnswer) => {
+  commit('SET_IS_ANSWER_WRONG', wrongAnswer);
+};
