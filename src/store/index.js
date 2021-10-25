@@ -23,6 +23,5 @@ export default store((/* { ssrContext } */) => {
     // for dev mode and --debug builds only
     strict: process.env.DEBUGGING,
   });
-
   return Store;
 });
